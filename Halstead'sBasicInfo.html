@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UV-Compatible" content="IE=edge,chrome=1"/>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+	<title>BASICINFOFHALSTEAD</title>
+	<link rel="stylesheet" href="css/cocomoIn.css" />
+</head>
+<body>
+	<div>
+		<h3><u>1. Purpose and Origin</u></h3>
+			<p>
+			Halstead complexity metrics were developed by the late Maurice Halstead as a means of determining a quantitative measure of complexity directly from the operators and operands in the module to measure a program module's complexity directly from source code.
+			Halstead took a linguistic approach to determine the complexity of a program. According to him, a computer program consists of a collection of different operands and operators.	
+			</p>
+	</div>
+    <div>
+    	<h3><u>2. Number of Operators and Operands</u></h3>
+        Halstead´s metrics is based on interpreting the source code as a sequence of tokens and classifying each token to be an operator or an operand.
+        <ul>
+            <li>number of unique operators (n1)</li>
+            <li>number of unique operands (n2)</li>
+            <li>total number of operators (N1) </li>
+            <li>total number of operands (N2)</li>
+        </ul>
+        Other Halstead measures are derived from these four quantities with certain fixed formulas as described below.
+        <ul>
+        	<li>Program length (N) = N1 + N2</li>
+        	<li>Program Vocabulary (n) = n1 + n2</li>
+        	<li>Program volume (V) = N*log2(n)</li>
+        	<li>Diffuclty level (D) = (n1/2)*(N2/n2)</li>
+        	<li>Progra level (L) = 1/D</li>
+        	<li>Effort to implement (E) = V*D </li>
+        	<li>Time to implement (T) = E/18 (in seconds)</li>
+        	<li>Number of delivered bugs (B) = V/3000</li>
+        	<li>Intelligence content (I) = V/D </li>
+        </ul>
+        The program volume V is the minimum number of bits needed to encode the program. It represents the size of the program while taking into account the programming language.<br>
+        The difficulty metric indicates how difficult a program is to write or understand.<br>
+        Effort denotes the "mental effort" required to develop the software, or to recreate the same in another programming language.<br>     
+    </div>
+	<div>
+		<a href="intdex.html">HOME</a>
+	</div>
+</body>
+</html>

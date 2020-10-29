@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UV-Compatible" content="IE=edge,chrome=1"/>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+	<title>BASICCOCOMOINFO</title>
+	<link rel="stylesheet" href="css/cocomoIn.css" />
+	<style>
+		table, td,th,tr{
+			border:1px solid black;
+			border-collapse: collapse;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h3><u>COCOMO Model</u></h3>
+		<p>Boehm proposed COCOMO (Constructive Cost Estimation Model) in 1981.COCOMO is one of the most generally used software estimation models in the world. COCOMO predicts the efforts and schedule of a software product based on the size of the software. </p>
+		<p><h4>In COCOMO, project are categorized into three types</h4></p>
+		<ul>
+			<li>Organic</li>
+			<li>Semidetached</li>
+			<li>Embedded</li>
+		</ul>
+		<h4>Organic:</h4>
+		<p>Project deals with developing a well-understood application program, the size of the development team is reasonably small, and the team members are experienced in developing similar methods of projects.EX..data processing system </p>
+		<h4>Semidetached:</h4>
+		<p> The development consists of a mixture of experienced and inexperienced staff. Team members may have finite experience in related systems but may be unfamiliar with some aspects of the order being developed.EX.. new opertating system</p>
+		<h4>Embedded:</h4>
+		<p>A development project is treated to be of an embedded type, if the software being developed is strongly coupled to complex hardware.EX.. ATM</p>	
+	</div>
+	<div>
+		<h4>According to Boehm, software cost estimation should be done through three stages: </h4>
+		<ul>
+			<li>Basic Model</li>
+			<li>Intermediate Model</li>
+			<li>Detailed Model</li>
+		</ul>
+	</div>
+	<div>
+		<h3>Basic COCOMO Model:</h3>
+		<table style="width: 40%">
+  			<tr >
+    			<th>Software Project</th>
+    			<th>a</th>
+    			<th>b</th>
+    			<th>c</th>
+    			<th>d</th>
+  			</tr>
+  			<tr>
+    			<td>Organic</td>
+    			<td>2.4</td>
+    			<td>1.05</td>
+    			<td>2.5</td>
+    			<td>0.38</td>
+  			</tr>
+  			<tr>
+    			<td>Semi Detached</td>
+    			<td>3.0</td>
+    			<td>1.12</td>
+    			<td>2.5</td>
+    			<td>0.35</td>
+  			</tr>
+  			<tr>
+  				<td>Embedded</td>
+  				<td>3.6</td>
+  				<td>1.20</td>
+  				<td>2.5</td>
+  				<td>0.32</td>
+  			</tr>
+		  </table> 
+		<ul>
+			<li>Effort = a*(KLOC)^b PM </li>
+			<li>T<sub>dev</sub> = c*(Effort)^d Months </li>
+			<li>Person required(staff) = Effort/T<sub>dev</sub> P</li>
+			<li>Where KLOC = project size(kilo lines of code),PM = Person-Months,T_dev = development time </li>
+		</ul>
+		 
+	</div>
+	<div>
+		<a href="intdex.html">HOME</a>
+	</div>
+</body>
+</html>
