@@ -1,4 +1,6 @@
-var a=2.4,b=1.05,c=0.38;
+$.getScript('https://unpkg.com/sweetalert/dist/sweetalert.min.js', function()
+{
+    var a=2.4,b=1.05,c=0.38;
 var type="Organic";
 document.getElementById("modeltype").onchange=function(){
 type=document.getElementById("modeltype").value;
@@ -22,6 +24,8 @@ document.getElementById("submit").onclick=function(){
 var size=document.getElementById("psize").value;
 if((type=="Organic" && size<=50) || (type=="Semi-detached" && size>=50 && size<=300) || (type=="Embedded" && size<=500 && size>=300))
 {
+swal("Checking Values").then((value) => { swal("Success", "Estimation is ready!", "success");
+});
 var effort=a*Math.pow(size,b);
 var tdev=2.5*Math.pow(effort,c);
 var n=effort/tdev;
@@ -30,10 +34,13 @@ document.getElementById("time").innerHTML="Time (in Months): "+tdev;
 document.getElementById("n").innerHTML="Persons: "+Math.ceil(n);
 }
 else{
+	swal("Checking Values").then((value) => { swal("Failure", "Enter correct values!", "error");
+	});
   document.getElementById("psize").value=0;
   document.getElementById("effort").innerHTML="Effort (in PM): "+0;
   document.getElementById("time").innerHTML="Time (in Months): "+0;
   document.getElementById("n").innerHTML="Persons: "+0;
-  alert("Re-enter");
 }
 };
+});
+
