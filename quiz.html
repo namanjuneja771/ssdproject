@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QUIZ</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet"href="quizstyle.css">
+</head>
+<body>
+<!-- ####################################################### -->
+	<div class="home-box custom-box">
+		<h3>Instruction:</h3>
+		<p>Total number of questions : <span class="total-question"></span></p>
+		<button type="button" class="btn" onclick="window.location.href='index.html'">Main Page</button>
+		<button type="button" class="btn" onclick="window.location.href='experiment.html'">Next Page</button>
+		<button type="button" class="btn" onclick="startQuiz()">Start Quiz</button>
+	</div>
+<!-- ####################################################### -->
+	<div class="quiz-box custom-box hide">
+		<div class="question-number">
+			
+		</div>
+		<div class="question-text">
+		
+		</div>
+		<div class="option-container ">
+			<!-- <div id="op" class="option">A</div>
+			<div id="op" class="option">B</div>
+			<div id="op" class="option">C</div>
+			<div id="op" class="option">D</div> -->
+		</div>
+		<div class="next-question">
+			<button type="button" class="btn" onclick="next()">Next</button>
+		</div>
+	</div>
+<!-- ####################################################### -->
+	<div class="result-box custom-box hide">
+		<h1>Quiz Result</h1>
+		<table>
+			<tr>
+				<td>Total Questions</td>
+				<td><span class="total-question"></span></td>
+			</tr>
+			<tr>
+				<td>Attempts</td>
+				<td><span class="total-attempt"></span></td>
+			</tr>
+			<tr>
+				<td>Correct</td>
+				<td><span class="total-correct"></span></td>
+			</tr>
+			<tr>
+				<td>Wrong</td>
+				<td><span class="total-wrong"></span></td>
+			</tr>
+			<tr>
+				<td>Your Total Score</td>
+				<td><span class="total-score"></span></td>
+			</tr>
+		</table>
+		<button type="button" class="btn" onclick="tryAgainQuiz()">Try Again</button>
+		<button type="button" class="btn" onclick="goToHome()">Go to Home</button>
+	</div>
+<!-- ####################################################### -->
+	<script type="text/javascript" src="quizJS/question.js"></script>
+	<script type="text/javascript" src="quizJS/app.js"></script>	
+</body>	
+</html>
