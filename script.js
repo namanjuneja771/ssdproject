@@ -1,3 +1,30 @@
+function sleep(milliseconds,slideIndex) {
+  var date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+    slides[slideIndex-1].style.display = "block";	
+  } while (currentDate - date < milliseconds);
+}
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    if(slideIndex!=i)
+    slides[i].style.display = "none";
+  }
+  var prev=slideIndex;
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  //slides[prev].style.display = "none";
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides,5000); // Change image every 2 seconds
+}
+
 var mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
