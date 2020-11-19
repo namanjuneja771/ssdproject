@@ -1,21 +1,12 @@
-/* CSS files add styling rules to your content */
-{box-sizing:border-box}
+{box-sizing: border-box}
+.mySlides1 {display: none}
+img {vertical-align: middle;}
 
 /* Slideshow container */
-.slideshow-container {
+.slideshow-container1 {
   max-width: 1000px;
   position: relative;
   margin: auto;
-  border-style: solid; 
-  padding: 30px;
-  background-color: black;
-  color: #00FF00;
-  height: 350px;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
 }
 
 /* Next & previous buttons */
@@ -24,14 +15,14 @@
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
   padding: 16px;
+  margin-top: -22px;
   color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-  user-select: none;  
+  user-select: none;
 }
 
 /* Position the "next button" to the right */
@@ -80,26 +71,44 @@
 .active, .dot:hover {
   background-color: #717171;
 }
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  border-style: solid; 
+  padding: 30px;
+  background-color: black;
+  color: #00FF00;
+  height: 350px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
 
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 5.0s;
+  -webkit-animation-duration: 7s;
   animation-name: fade;
-  animation-duration: 5.0s;
+  animation-duration: 7s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: 1}
+  from {opacity: 1} 
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: 1}
+  from {opacity: 1} 
   to {opacity: 1}
 }
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
 
-ADVERTISEMENT
+/*ADVERTISEMENT*/
 
 body {
   font-family: helvetica, arial, sans-serif;
@@ -124,7 +133,7 @@ h1 {
 }
 .footer{
   padding:2.5%;
-  background-color:darkblue;
+  background-color:#696969;
   color:white;
   text-align:center;
 }
@@ -154,7 +163,7 @@ h1 {
   vertical-align:top;
 }
 #button1{
-  background-color:gray;
+  background-color:#696969;
   color:white;
   padding:1%;
 }
@@ -171,7 +180,7 @@ h1 {
   z-index: 99; 
   border: none; 
   outline: none; 
-  background-color: lightblue; 
+  background-color: #FF4500; 
   color: white; 
   cursor: pointer; 
   padding: 15px; 
@@ -183,13 +192,10 @@ h1 {
 #myBtn:hover {
   background-color: #555; 
 }
-#nav{
-  background-color: darkblue;
-}
 .navbar-right > li.active > a, 
 .navbar-right > li.active > a:focus, 
 .navbar-right > li.active > a:hover {
-  background-color: green !important;
+  background-color: #FF4500 !important;
 }
 .flip-card {
   flex: 50%;
@@ -239,4 +245,6 @@ h1 {
   color: black;
   transform: rotateY(180deg);
 }
-
+#nav{
+  background-color: #696969;
+}
