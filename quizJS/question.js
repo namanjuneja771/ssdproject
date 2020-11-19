@@ -1,6 +1,5 @@
 
 
-
 //array of Objects
 //console.log("hello");
 const quiz = [

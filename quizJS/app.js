@@ -137,6 +137,11 @@ function goToHome(){
 	homeBox.classList.remove("hide");
 	resetQuiz();
 }
+function submit(){
+	quizBox.classList.add("hide");
+	resultBox.classList.remove("hide");
+	quizResult();	
+}
 //..........................................................
 //..........................................................
 //..........................................................
