@@ -1,28 +1,28 @@
-function sleep(milliseconds,slideIndex) {
-  var date = Date.now();
-  let currentDate = null;
-  do {
-    currentDate = Date.now();
-    slides[slideIndex-1].style.display = "block";	
-  } while (currentDate - date < milliseconds);
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
-var slideIndex = 0;
-showSlides();
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-function showSlides() {
+function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-    if(slideIndex!=i)
-    slides[i].style.display = "none";
+      slides[i].style.display = "none";  
   }
-  var prev=slideIndex;
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  //slides[prev].style.display = "none";
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides,5000); // Change image every 2 seconds
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
 }
 
 var mybutton = document.getElementById("myBtn");
