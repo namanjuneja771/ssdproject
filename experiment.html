@@ -11,10 +11,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-   <link rel="stylesheet"href="quizstyle.css"> 
+   <link rel="stylesheet"href="quizstyle.css">
+
 </head>
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -51,7 +52,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="image/img01.jpg" alt="New York" width="100%" height="300">
+        <img src="image/img01.jpg" alt="New York" width="100%" height="200">
         <div class="carousel-caption">
           <h3>step-1</h3>
           <p>Leader identifies judegment issues And Develops Questionaire</p>
@@ -59,7 +60,7 @@
       </div>
 
       <div class="item">
-        <img src="image/img02.jpg" alt="Chicago" width="100%" height="300">
+        <img src="image/img02.jpg" alt="Chicago" width="100%" height="200">
         <div class="carousel-caption">
           <h3>step-2</h3>
           <p>Prospective Participents are identified and asked to Cooperate.</p>
@@ -67,28 +68,28 @@
       </div>
     
       <div class="item">
-        <img src="image/img03.jpg" alt="Los Angeles" width="100%" height="300">
+        <img src="image/img03.jpg" alt="Los Angeles" width="100%" height="200">
         <div class="carousel-caption">
           <h3>step-3</h3>
           <p>Leaders send questionaire to willing participents who record their judegements and Recommendations and Returns the questionaire.</p>
         </div>      
       </div>
       <div class="item">
-        <img src="image/img06.jpg" alt="Chicago" width="100%" height="300">
+        <img src="image/img06.jpg" alt="Chicago" width="100%" height="200">
         <div class="carousel-caption">
           <h3>step-4</h3>
           <p>Leaders Compiles summaries And Reproduces participants responses</p>
         </div>      
       </div>
       <div class="item">
-        <img src="image/img04.jpg" alt="Chicago" width="100%" height="300">
+        <img src="image/img04.jpg" alt="Chicago" width="100%" height="200">
         <div class="carousel-caption">
           <h3>step-5</h3>
           <p>Leaders send the Compiled list of judgement to all participants</p>
         </div>      
       </div>
       <div class="item">
-        <img src="image/img05.jpg" alt="Chicago" width="100%" height="300">
+        <img src="image/img05.jpg" alt="Chicago" width="100%" height="200">
         <div class="carousel-caption">
           <h3>step-6</h3>
           <p>Participants Comments On each other's ideas and propose A final judgment.</p>
@@ -106,9 +107,421 @@
       <span class="sr-only">Next</span>
     </a>
 </div>
+<div class="Uhome-box custom-box hide">
+  <h3 style="color:#2c3e50 font-size:500">USER</h3>
+</div>
+<div class="Mhome-box custom-box">
+  <h3 style="color:#2c3e50 font-size:500">Modules</h3>
+    <button type="button" class="btn" onclick="next1()">Module-1</button>
+    <button type="button" class="btn" onclick="next2()">Module-2</button>
+    <button type="button" class="btn" onclick="next3()">Module-3</button>
+    <button type="button" class="btn" onclick="next4()">Module-4</button>
+    <button type="button" class="btn" onclick="next5()">Module-5</button>
+    <button type="button" class="btn" onclick="next6()">Module-6</button>
+    <button type="button" class="btn" onclick="next7()">Module-7</button>
+    <hr>
+    <p>After creating module go to next step: </p>
+    <button type="button" class="btn" onclick="nextstp1()">Next Step</button>
+</div>
 
-  <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-arrow-up"></span></button>
-          
-          <script src="script.js"></script>
+<div class="home1-box custom-box hide">
+  <h3 style="color:#2c3e50 font-size:500">Creating an Account</h3>
+  <p>This is the first step towards opening the door of magic for all the book lovers. Simply register your name over the library application by filling the necessary details such as contact details, name, e mail address etc. And you’re ready to move towards the next module.</p>
+  <button type="button" class="btn" onclick="module1()">Modules</button>
+</div>
+
+<div class="home2-box custom-box hide">
+  <h3 style="color:#2c3e50 font-size:500">Getting Familiar</h3>
+  <p>Once you’ve registered yourself, start clicking on every given option to get an idea of what it does. Start searching for all the available e books. Get to know the app.</p>
+  <button type="button" class="btn" onclick="module2()">Modules</button>
+</div>
+
+<div class="home3-box custom-box hide">
+  <h3 style="color:#2c3e50 font-size:500">Placing Order</h3>
+  <p>This is where a student or any registered person can place an order for the books they’re looking for. When this task is done manually it consumes a lot of time and is also burdensome at times to search for the books a person is asking for.</p>
+  <button type="button" class="btn" onclick="module3()">Modules</button>
+</div>
+
+<div class="home4-box custom-box hide">
+  <h3 style="color:#2c3e50 font-size:500">Interact</h3>
+  <p>Many a time’s students find it difficult to understand a particular concept from the particular chapter of the book. But with the help of library management software, one can have a group discussion with the student or people who have proper knowledge regarding the concept.</p>
+  <button type="button" class="btn" onclick="module4()">Modules</button>
+</div>
+
+<div class="home5-box custom-box hide">
+  <h3 style="color:#2c3e50 font-size:500">Reminder</h3>
+  <p>It often happens that we take a book but just forget to return it on the day of return. But with the help of computerised system one will get a reminder of when to return a particular book. This will reduce the stress of both, the reader and the admin.</p>
+  <button type="button" class="btn" onclick="module5()">Modules</button>
+</div>
+
+<div class="home6-box custom-box hide">
+  <h3 style="color:#2c3e50 font-size:500">Fine Calculator</h3>
+  <p>If the person fails to return the book even after the gentle reminder, then he/she is charged with some said the fine amount. They can check the issue and the last day of return and can calculate the fine.</p>
+  <button type="button" class="btn" onclick="module6()">Modules</button>
+</div>
+
+<div class="home7-box custom-box hide">
+  <h3 style="color:#2c3e50 font-size:500">Review</h3>
+  <p>The best part for all the book lovers, as well as school and college going students, where they can not only read their favourite book but can also give their opinions regarding the same. This way, the one who will likely be reading the same book can get an idea before they begin the book.</p>
+  <button type="button" class="btn" onclick="module7()">Modules</button>
+</div>
+
+
+<div class="nhome-box custom-box hide">
+  <h3 style="color:#2c3e50 font-size:500">Ask to the group of expert</h3>
+  <p>
+    #########################################
+  </p>
+  <button type="button" class="btn" onclick="nextstp2()"> Next Step </button>
+</div>
+
+
+<div class="R1home-box custom-box hide">
+ <h3 style="color:#2c3e50 font-size:500">Round 1 Estimation sheet</h3>
+  <table id="estimate">
+  <tr>
+    <th>Modules</th>
+    <th>Exoert 1</th>
+    <th>Expert 2</th>
+    <th>Expert 3</th>
+    <th>Expert 4</th>
+  </tr>
+  <tr>
+    <th>Module</th>
+    <th>Optimistic Pesimistic Expected effort</th>
+    <th>Optimistic Pesimistic Expected effort</th>
+    <th>Optimistic Pesimistic Expected effort</th>
+    <th>Optimistic Pesimistic Expected effort</th>
+  </tr>
+  <tr>
+    <td>Module1</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+  </tr>
+  <tr>
+    <td>Module2</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+  </tr>
+  <tr>
+    <td>Module3</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+  </tr>
+  <tr>
+    <td>Module4</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+  </tr>
+  <tr>
+    <td>Module5</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+  </tr>
+  <tr>
+    <td>Module6</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+  </tr>
+  <tr>
+    <td>Module7</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+  </tr>
+  <tr>
+    <td>Total</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+  </tr>
+  <tr>
+    <td>Average Effort</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>Highest efforts</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Lowest efforts</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </table>
+  <h3 style="color:#2c3e50 font-size:500">According to the provided estimated cost ,Moderator asked to the user</h3>
+  <p>
+    ##########################################
+  </p>
+  <button type="button" class="btn" onclick="nextstp3()"> Next Step </button>
+</div>
+
+<div class="R2home-box custom-box hide">
+  <!-- <h3 style="color:#2c3e50 font-size:500">Round 1 plot</h3> -->
+   <h3 style="color:#2c3e50 font-size:500">Round 2 Estimation sheet</h3>
+  <table id="estimate">
+  <tr>
+    <th>Modules</th>
+    <th>Exoert 1</th>
+    <th>Expert 2</th>
+    <th>Expert 3</th>
+    <th>Expert 4</th>
+    <th>Expert 5</th>
+  </tr>
+  <tr>
+    <th>Module</th>
+    <th>Optimistic Pesimistic Expected effort</th>
+    <th>Optimistic Pesimistic Expected effort</th>
+    <th>Optimistic Pesimistic Expected effort</th>
+    <th>Optimistic Pesimistic Expected effort</th>
+    <th>Optimistic Pesimistic Expected effort</th>
+  </tr>
+  <tr>
+    <td>Module1</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+  </tr>
+  <tr>
+    <td>Module2</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+  </tr>
+  <tr>
+    <td>Module3</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+  </tr>
+  <tr>
+    <td>Module4</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+  </tr>
+  <tr>
+    <td>Module5</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+  </tr>
+  <tr>
+    <td>Module6</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+  </tr>
+  <tr>
+    <td>Module7</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+  </tr>
+  <tr>
+    <td>Total</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+    <td>a,b,c</td>
+  </tr>
+  <tr>
+    <td>Average Effort</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+    <tr>
+    <td>Highest efforts</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Lowest efforts</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Total Avg</td>
+    <td>----</td>
+    <td>Confidence level</td>
+    <td>----</td>
+    <td>Standered Error</td>
+    <td>----</td>
+  </tr>
+  </table>
+  <h3 style="color:#2c3e50 font-size:500">According to the provided estimated cost ,Moderator asked to the user</h3>
+  <p>
+    ##########################################
+  </p>
+  <button type="button" class="btn" onclick="nextstp4()"> Next Step </button>
+</div>
+
+<div class="R3home-box custom-box hide">
+  <!-- <h3 style="color:#2c3e50 font-size:500">Round 2 plot</h3> -->
+   <h3 style="color:#2c3e50 font-size:500">Round 3 Estimation sheet</h3>
+  <table id="estimate">
+  <tr>
+    <th>Modules</th>
+    <th>Exoert 1</th>
+    <th>Expert 2</th>
+    <th>Expert 3</th>
+    <th>Expert 4</th>
+  </tr>
+  <tr>
+    <th>Module</th>
+    <th>Optimistic Pesimistic Expected effort</th>
+    <th>Optimistic Pesimistic Expected effort</th>
+    <th>Optimistic Pesimistic Expected effort</th>
+    <th>Optimistic Pesimistic Expected effort</th>
+  </tr>
+  <tr>
+    <td>Module1</td>
+    <td>8,6,7</td>
+    <td>10,9,9</td>
+    <td>8,4,9</td>
+    <td>11,9,13</td>
+  </tr>
+  <tr>
+    <td>Module2</td>
+    <td>11,8,10</td>
+    <td>14,10,11</td>
+    <td>12,7,10</td>
+    <td>12,11,10</td>
+  </tr>
+  <tr>
+    <td>Module3</td>
+    <td>12,10,11</td>
+    <td>11,10,10</td>
+    <td>13,8,9</td>
+    <td>13,12,12</td>
+  </tr>
+  <tr>
+    <td>Module4</td>
+    <td>14,11,13</td>
+    <td>14,13,12</td>
+    <td>13,6,13</td>
+    <td>14,14,13</td>
+  </tr>
+  <tr>
+    <td>Module5</td>
+    <td>10,7,7</td>
+    <td>17,14,14</td>
+    <td>12,9,13</td>
+    <td>15,14,15</td>
+  </tr>
+  <tr>
+    <td>Module6</td>
+    <td>19,13,13</td>
+    <td>12,10,12</td>
+    <td>17,11,10</td>
+    <td>17,15,16</td>
+  </tr>
+  <tr>
+    <td>Module7</td>
+    <td>13,7,7</td>
+    <td>13,6,10</td>
+    <td>13,6,6</td>
+    <td>15,13,16</td>
+  </tr>
+  <tr>
+    <td>Total</td>
+    <td>87,62,70</td>
+    <td>91,72,80</td>
+    <td>88,50,70</td>
+    <td>97,88,95</td>
+  </tr>
+  <tr>
+    <td>Average Effort</td>
+    <td>72</td>
+    <td>81</td>
+    <td>70</td>
+    <td>94</td>
+  </tr>
+    <tr>
+    <td>Highest efforts</td>
+    <td>__</td>
+    <td>__</td>
+    <td>__</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>Lowest efforts</td>
+    <td>__</td>
+    <td>__</td>
+    <td>70</td>
+    <td>__</td>
+  </tr>
+  <tr>
+    <td>Total Average Estiamte of_all_expert</td>
+    <td>79 (final_estimated cost)</td>
+    <td>Confidence level 95%</td>
+    <td>71.5-86.5</td>
+    <td>Standered Error=3.79</td>
+  </tr>
+  </table>
+    <h3 style="color:#2c3e50 font-size:500">According to the provided estimated cost ,Moderator asked to the user</h3>
+  <p>
+    ##########################################
+  </p>
+  <button type="button" class="btn" onclick="solutionStp()"> Next Step </button>
+</div>
+
+<div class="shome-box custom-box hide">
+  <h3 style="color:#2c3e50 font-size:500">Ask to the group of expert</h3>
+  <p>
+    #########################################
+  </p>
+  <button type="button" class="btn" onclick="mainModule()"> Go to Step-1</button>
+</div>
+
+<script type="text/javascript" src="quizJS/exp.js"></script>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-arrow-up"></span></button>
+<script src="script.js"></script>
 </body> 
 </html>

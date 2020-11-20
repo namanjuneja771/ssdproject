@@ -5,6 +5,7 @@ const optionContainer = document.querySelector(".option-container");
 const homeBox = document.querySelector(".home-box");
 const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
+//experi/...
 
 
 let questionCounter = 0;
@@ -142,6 +143,7 @@ function submit(){
 	resultBox.classList.remove("hide");
 	quizResult();	
 }
+
 //..........................................................
 //..........................................................
 //..........................................................

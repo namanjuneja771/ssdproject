@@ -242,16 +242,6 @@ footer {
   .navbar-default .navbar-toggle {
     border-color: transparent;
   }
-  .open .dropdown-toggle {
-    color: #fff;
-    background-color: #555 !important;
-  }
-  .dropdown-menu li a {
-    color: #000 !important;
-  }
-  .dropdown-menu li a:hover {
-    background-color: red !important;
-  }
   footer {
     background-color: #2d2d30;
     color: #f5f5f5;
@@ -264,3 +254,314 @@ footer {
     color: #777;
     text-decoration: none;
   }  
+.home1-box h3{
+	font-size:18px;
+	color:#000000;
+	font-weight: 500;
+	margin-bottom: 15px 
+}
+.home1-box p{
+	font-size:16px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color:#000000; 
+}
+.home1-box p span{
+	font-weight:500;
+}
+.home1-box .btn{
+	margin-top:20px;
+}
+.home2-box h3{
+	font-size:18px;
+	color:#000000;
+	font-weight: 500;
+	margin-bottom: 15px 
+}
+.home2-box p{
+	font-size:16px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color:#000000; 
+}
+.home2-box p span{
+	font-weight:500;
+}
+.home2-box .btn{
+	margin-top:20px;
+}
+.home3-box h3{
+	font-size:18px;
+	color:#000000;
+	font-weight: 500;
+	margin-bottom: 15px 
+}
+.home3-box p{
+	font-size:16px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color:#000000; 
+}
+.home3-box p span{
+	font-weight:500;
+}
+.home3-box .btn{
+	margin-top:20px;
+}
+.home4-box h3{
+	font-size:18px;
+	color:#000000;
+	font-weight: 500;
+	margin-bottom: 15px 
+}
+.home4-box p{
+	font-size:16px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color:#000000; 
+}
+.home4-box p span{
+	font-weight:500;
+}
+.home4-box .btn{
+	margin-top:20px;
+}
+.home5-box h3{
+	font-size:18px;
+	color:#000000;
+	font-weight: 500;
+	margin-bottom: 15px 
+}
+.home5-box p{
+	font-size:16px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color:#000000; 
+}
+.home5-box p span{
+	font-weight:500;
+}
+.home5-box .btn{
+	margin-top:20px;
+}
+.home6-box h3{
+	font-size:18px;
+	color:#000000;
+	font-weight: 500;
+	margin-bottom: 15px 
+}
+.home6-box p{
+	font-size:16px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color:#000000; 
+}
+.home6-box p span{
+	font-weight:500;
+}
+.home6-box .btn{
+	margin-top:20px;
+}
+.home7-box h3{
+	font-size:18px;
+	color:#000000;
+	font-weight: 500;
+	margin-bottom: 15px 
+}
+.home7-box p{
+	font-size:16px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color:#000000; 
+}
+.home7-box p span{
+	font-weight:500;
+}
+.home7-box .btn{
+	margin-top:20px;
+}
+.Uhome-box h3{
+	font-size:18px;
+	color:#000000;
+	font-weight: 500;
+	margin-bottom: 15px 
+}
+.Uhome-box p{
+	font-size:16px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color:#000000; 
+}
+.Uhome-box p span{
+	font-weight:500;
+}
+.Uhome-box .btn{
+	margin-top:20px;
+}
+.Mhome-box h3{
+	font-size:18px;
+	color:#000000;
+	font-weight: 500;
+	margin-bottom: 15px 
+}
+.Mhome-box p{
+	font-size:16px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color:#000000; 
+}
+.Mhome-box p span{
+	font-weight:500;
+}
+.Mhome-box .btn{
+	margin-top:20px;
+}
+.Ehome-box h3{
+	font-size:18px;
+	color:#000000;
+	font-weight: 500;
+	margin-bottom: 15px 
+}
+.Ehome-box p{
+	font-size:16px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color:#000000; 
+}
+.Ehome-box p span{
+	font-weight:500;
+}
+.Ehome-box .btn{
+	margin-top:20px;
+}
+.Ehome-box h3{
+	font-size:18px;
+	color:#000000;
+	font-weight: 500;
+	margin-bottom: 15px 
+}
+.Ehome-box p{
+	font-size:16px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color:#000000; 
+}
+.Ehome-box p span{
+	font-weight:500;
+}
+.Ehome-box .btn{
+	margin-top:20px;
+}
+.R1home-box h3{
+	font-size:18px;
+	color:#000000;
+	font-weight: 500;
+	margin-bottom: 15px 
+}
+.R1home-box p{
+	font-size:16px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color:#000000; 
+}
+.R1home-box p span{
+	font-weight:500;
+}
+.R1home-box .btn{
+	margin-top:20px;
+}
+.R2home-box h3{
+	font-size:18px;
+	color:#000000;
+	font-weight: 500;
+	margin-bottom: 15px 
+}
+.R2home-box p{
+	font-size:16px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color:#000000; 
+}
+.R2home-box p span{
+	font-weight:500;
+}
+.R2home-box .btn{
+	margin-top:20px;
+}
+.R3home-box h3{
+	font-size:18px;
+	color:#000000;
+	font-weight: 500;
+	margin-bottom: 15px 
+}
+.R3home-box p{
+	font-size:16px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color:#000000; 
+}
+.R3home-box p span{
+	font-weight:500;
+}
+.R3home-box .btn{
+	margin-top:20px;
+}
+.nhome-box h3{
+	font-size:18px;
+	color:#000000;
+	font-weight: 500;
+	margin-bottom: 15px 
+}
+.nhome-box p{
+	font-size:16px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color:#000000; 
+}
+.nhome-box p span{
+	font-weight:500;
+}
+.nhome-box .btn{
+	margin-top:20px;
+}
+.shome-box h3{
+	font-size:18px;
+	color:#000000;
+	font-weight: 500;
+	margin-bottom: 15px 
+}
+.shome-box p{
+	font-size:16px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	color:#000000; 
+}
+.shome-box p span{
+	font-weight:500;
+}
+.shome-box .btn{
+	margin-top:20px;
+}
+#estimate {
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-weight:400;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#estimate td, #estimate th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#estimate tr:nth-child(even){background-color: #f2f2f2;}
+
+#estimate tr:hover {background-color: #ddd;}
+
+#estimate th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:#2c3e50;
+  color: white;
+}
